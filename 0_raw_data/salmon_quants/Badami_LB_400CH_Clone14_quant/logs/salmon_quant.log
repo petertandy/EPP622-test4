@@ -1,0 +1,59 @@
+[2022-11-23 12:35:00.823] [jointLog] [info] setting maxHashResizeThreads to 4
+[2022-11-23 12:35:00.823] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2022-11-23 12:35:00.824] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2022-11-23 12:35:00.824] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2022-11-23 12:35:00.824] [jointLog] [info] parsing read library format
+[2022-11-23 12:35:00.825] [jointLog] [info] There is 1 library.
+[2022-11-23 12:35:00.827] [jointLog] [info] Loading pufferfish index
+[2022-11-23 12:35:00.827] [jointLog] [info] Loading dense pufferfish index.
+[2022-11-23 12:35:03.026] [jointLog] [info] done
+[2022-11-23 12:35:03.091] [jointLog] [info] Index contained 47,268 targets
+[2022-11-23 12:35:03.104] [jointLog] [info] Number of decoys : 191
+[2022-11-23 12:35:03.104] [jointLog] [info] First decoy index : 47,077 
+[2022-11-23 12:37:27.639] [jointLog] [info] Computed 51,149 rich equivalence classes for further processing
+[2022-11-23 12:37:27.639] [jointLog] [info] Counted 6,440,942 total reads in the equivalence classes 
+[2022-11-23 12:37:27.641] [jointLog] [info] Number of mappings discarded because of alignment score : 205,857,087
+[2022-11-23 12:37:27.641] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 4,574,890
+[2022-11-23 12:37:27.641] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 1,861,825
+[2022-11-23 12:37:27.641] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 0
+[2022-11-23 12:37:27.641] [jointLog] [info] Mapping rate = 27.8655%
+
+[2022-11-23 12:37:27.641] [jointLog] [info] finished quantifyLibrary()
+[2022-11-23 12:37:27.643] [jointLog] [info] Starting optimizer
+[2022-11-23 12:37:27.672] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2022-11-23 12:37:27.676] [jointLog] [info] iteration = 0 | max rel diff. = 11452.2
+[2022-11-23 12:37:27.640] [fileLog] [info] 
+At end of round 0
+==================
+Observed 23114385 total fragments (23114385 in most recent round)
+
+[2022-11-23 12:37:28.099] [jointLog] [info] iteration = 100 | max rel diff. = 20.9815
+[2022-11-23 12:37:28.555] [jointLog] [info] iteration = 200 | max rel diff. = 19.1224
+[2022-11-23 12:37:29.009] [jointLog] [info] iteration = 300 | max rel diff. = 9.49543
+[2022-11-23 12:37:29.460] [jointLog] [info] iteration = 400 | max rel diff. = 17.1314
+[2022-11-23 12:37:29.912] [jointLog] [info] iteration = 500 | max rel diff. = 2.61008
+[2022-11-23 12:37:30.367] [jointLog] [info] iteration = 600 | max rel diff. = 1.302
+[2022-11-23 12:37:30.820] [jointLog] [info] iteration = 700 | max rel diff. = 0.851222
+[2022-11-23 12:37:31.272] [jointLog] [info] iteration = 800 | max rel diff. = 0.226544
+[2022-11-23 12:37:31.724] [jointLog] [info] iteration = 900 | max rel diff. = 0.631041
+[2022-11-23 12:37:32.178] [jointLog] [info] iteration = 1,000 | max rel diff. = 0.721623
+[2022-11-23 12:37:32.632] [jointLog] [info] iteration = 1,100 | max rel diff. = 0.160509
+[2022-11-23 12:37:33.085] [jointLog] [info] iteration = 1,200 | max rel diff. = 0.0848755
+[2022-11-23 12:37:33.537] [jointLog] [info] iteration = 1,300 | max rel diff. = 0.0199191
+[2022-11-23 12:37:33.988] [jointLog] [info] iteration = 1,400 | max rel diff. = 0.0876668
+[2022-11-23 12:37:34.440] [jointLog] [info] iteration = 1,500 | max rel diff. = 0.466157
+[2022-11-23 12:37:34.894] [jointLog] [info] iteration = 1,600 | max rel diff. = 0.0184215
+[2022-11-23 12:37:35.348] [jointLog] [info] iteration = 1,700 | max rel diff. = 0.0262533
+[2022-11-23 12:37:35.801] [jointLog] [info] iteration = 1,800 | max rel diff. = 0.049068
+[2022-11-23 12:37:36.253] [jointLog] [info] iteration = 1,900 | max rel diff. = 0.174802
+[2022-11-23 12:37:36.705] [jointLog] [info] iteration = 2,000 | max rel diff. = 0.314199
+[2022-11-23 12:37:37.159] [jointLog] [info] iteration = 2,100 | max rel diff. = 0.128048
+[2022-11-23 12:37:37.615] [jointLog] [info] iteration = 2,200 | max rel diff. = 0.105276
+[2022-11-23 12:37:37.665] [jointLog] [info] iteration = 2,212 | max rel diff. = 0.00971747
+[2022-11-23 12:37:37.673] [jointLog] [info] Finished optimizer
+[2022-11-23 12:37:37.673] [jointLog] [info] writing output 
+
+[2022-11-23 12:37:37.738] [jointLog] [warning] NOTE: Read Lib [[ Badami_LB_400CH_Clone14.fastq ]] :
+
+Detected a *potential* strand bias > 1% in an unstranded protocol check the file: Badami_LB_400CH_Clone14_quant/lib_format_counts.json for details
+

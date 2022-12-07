@@ -1,0 +1,22 @@
+{
+    "read_files": "[ Badami_LB_800CH_Clone16.fastq ]",
+    "expected_format": "U",
+    "compatible_fragment_ratio": 1.0,
+    "num_compatible_fragments": 11874586,
+    "num_assigned_fragments": 11874586,
+    "num_frags_with_concordant_consistent_mappings": 11968133,
+    "num_frags_with_inconsistent_or_orphan_mappings": 0,
+    "strand_mapping_bias": 0.019395255717830009,
+    "MSF": 0,
+    "OSF": 0,
+    "ISF": 0,
+    "MSR": 0,
+    "OSR": 0,
+    "ISR": 0,
+    "SF": 232125,
+    "SR": 11736008,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}

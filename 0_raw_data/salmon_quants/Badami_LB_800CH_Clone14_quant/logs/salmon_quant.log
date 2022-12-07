@@ -1,0 +1,54 @@
+[2022-11-23 12:13:48.244] [jointLog] [info] setting maxHashResizeThreads to 4
+[2022-11-23 12:13:48.244] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2022-11-23 12:13:48.244] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2022-11-23 12:13:48.244] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2022-11-23 12:13:48.244] [jointLog] [info] parsing read library format
+[2022-11-23 12:13:48.244] [jointLog] [info] There is 1 library.
+[2022-11-23 12:13:48.244] [jointLog] [info] Loading pufferfish index
+[2022-11-23 12:13:48.245] [jointLog] [info] Loading dense pufferfish index.
+[2022-11-23 12:19:37.099] [jointLog] [info] done
+[2022-11-23 12:19:37.134] [jointLog] [info] Index contained 47,268 targets
+[2022-11-23 12:19:37.145] [jointLog] [info] Number of decoys : 191
+[2022-11-23 12:19:37.145] [jointLog] [info] First decoy index : 47,077 
+[2022-11-23 12:21:10.975] [fileLog] [info] 
+At end of round 0
+==================
+Observed 21748763 total fragments (21748763 in most recent round)
+
+[2022-11-23 12:21:10.974] [jointLog] [info] Computed 60,733 rich equivalence classes for further processing
+[2022-11-23 12:21:10.974] [jointLog] [info] Counted 9,331,358 total reads in the equivalence classes 
+[2022-11-23 12:21:10.976] [jointLog] [info] Number of mappings discarded because of alignment score : 111,272,146
+[2022-11-23 12:21:10.976] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 2,497,059
+[2022-11-23 12:21:10.976] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 1,098,713
+[2022-11-23 12:21:10.976] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 0
+[2022-11-23 12:21:10.976] [jointLog] [info] Mapping rate = 42.9052%
+
+[2022-11-23 12:21:10.976] [jointLog] [info] finished quantifyLibrary()
+[2022-11-23 12:21:10.981] [jointLog] [info] Starting optimizer
+[2022-11-23 12:21:11.002] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2022-11-23 12:21:11.006] [jointLog] [info] iteration = 0 | max rel diff. = 16049.9
+[2022-11-23 12:21:11.432] [jointLog] [info] iteration = 100 | max rel diff. = 20.7596
+[2022-11-23 12:21:11.860] [jointLog] [info] iteration = 200 | max rel diff. = 11.8985
+[2022-11-23 12:21:12.288] [jointLog] [info] iteration = 300 | max rel diff. = 2.8973
+[2022-11-23 12:21:12.715] [jointLog] [info] iteration = 400 | max rel diff. = 16.5501
+[2022-11-23 12:21:13.143] [jointLog] [info] iteration = 500 | max rel diff. = 7.28584
+[2022-11-23 12:21:13.571] [jointLog] [info] iteration = 600 | max rel diff. = 16.7523
+[2022-11-23 12:21:13.998] [jointLog] [info] iteration = 700 | max rel diff. = 2.50176
+[2022-11-23 12:21:14.426] [jointLog] [info] iteration = 800 | max rel diff. = 2.20633
+[2022-11-23 12:21:14.853] [jointLog] [info] iteration = 900 | max rel diff. = 0.39517
+[2022-11-23 12:21:15.281] [jointLog] [info] iteration = 1,000 | max rel diff. = 0.645978
+[2022-11-23 12:21:15.708] [jointLog] [info] iteration = 1,100 | max rel diff. = 1.17923
+[2022-11-23 12:21:16.136] [jointLog] [info] iteration = 1,200 | max rel diff. = 0.0373573
+[2022-11-23 12:21:16.564] [jointLog] [info] iteration = 1,300 | max rel diff. = 0.342498
+[2022-11-23 12:21:16.991] [jointLog] [info] iteration = 1,400 | max rel diff. = 0.0461136
+[2022-11-23 12:21:17.419] [jointLog] [info] iteration = 1,500 | max rel diff. = 0.0498536
+[2022-11-23 12:21:17.846] [jointLog] [info] iteration = 1,600 | max rel diff. = 0.118744
+[2022-11-23 12:21:18.274] [jointLog] [info] iteration = 1,700 | max rel diff. = 0.12861
+[2022-11-23 12:21:18.504] [jointLog] [info] iteration = 1,755 | max rel diff. = 0.00771634
+[2022-11-23 12:21:18.508] [jointLog] [info] Finished optimizer
+[2022-11-23 12:21:18.508] [jointLog] [info] writing output 
+
+[2022-11-23 12:21:18.575] [jointLog] [warning] NOTE: Read Lib [[ Badami_LB_800CH_Clone14.fastq ]] :
+
+Detected a *potential* strand bias > 1% in an unstranded protocol check the file: Badami_LB_800CH_Clone14_quant/lib_format_counts.json for details
+

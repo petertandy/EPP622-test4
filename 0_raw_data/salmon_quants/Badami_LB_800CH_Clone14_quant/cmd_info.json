@@ -1,0 +1,10 @@
+{
+    "salmon_version": "1.9.0",
+    "index": "/lustre/isaac/proj/UTK0208/rnaseq/raw_data/salmon_transcripts_index",
+    "libType": "U",
+    "unmatedReads": "Badami_LB_800CH_Clone14.fastq",
+    "validateMappings": [],
+    "output": "Badami_LB_800CH_Clone14_quant",
+    "threads": "4",
+    "auxDir": "aux_info"
+}
